@@ -1,0 +1,158 @@
+#wrap{
+	width: 1250px;
+	height: 750px;
+	margin: auto;
+}
+                                                                 /* Header*/
+header{
+	background: #8d5324;
+	width: 1250px;
+	height: 150px;
+	margin: auto;
+	
+}
+
+#tenshop{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 2.0;
+	vertical-align: middle;
+}
+
+#slogan{
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+
+}
+
+                                                                   /*MENU*/
+#menu{
+	margin-top: 10px;
+}
+#menu ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0px;
+  width: 1250px;
+  overflow: hidden;
+  background-color: #ad6f3d;
+}
+#menu ul li {
+  float: left;
+}
+
+#menu ul li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 11px 11px;
+  text-decoration: none;
+  border-right: #ffffff solid 1px;
+}
+
+#menu ul li a:hover:not(.active) {
+  background-color: #d0ae50;
+}
+
+#menu ul li a.active {
+  color: #ad6f3d;
+  background-color: #ffffff;
+}
+    /* Search....*/
+form{
+	float: right;
+}
+input[type="text"]
+{
+      width: 130px;
+      border: 1px solid black;
+      border-radius: 4px;
+      outline:none;
+      padding: 6px;
+      text-align: left;
+      display: inline-block;
+      transition:0.6s ease-in-out;
+    }
+    input[type="text"]:focus{
+    width:250px; 
+}
+
+                                                                  /* Main */
+#main{
+	padding-top: 10px;
+	width: 1250px;
+	height: 500px;
+	margin: auto;
+}
+  /* Main Left */
+#main #danhmuc {
+	width: 250px;
+	height: 500px;
+	background: #fee5ad;
+	float: left;
+	
+}
+#main #danhmuc .main_left ul {
+margin: -17px;
+padding: 0px;
+}
+#main #danhmuc .main_left ul li{
+	list-style: none;
+}
+#main #danhmuc .main_left h3{
+	background: #c3884d url(icon-menu.png) no-repeat 5px;
+	height: 40px;
+	margin-top: 0px;
+	text-indent: 45px;
+	line-height: 40px;
+	color: #ffffff;
+}
+#main #danhmuc .main_left ul li a {
+	display: block;
+	text-decoration: none;
+	line-height: 32px;
+	border-bottom: 1px solid #ffffff;
+	color: #8d5324;
+	text-indent: 60px;
+	background: url(icon-phumuc16px.png) no-repeat 30px;
+}
+
+   /* Main Right */
+#main #intro {
+	width: 1000px;
+	height: 500px;
+	background: #feeea1;
+	float: right;
+	overflow: scroll;
+	
+}
+        
+                                                             /* Footer */
+
+#footer{
+	width: 1250px;
+	height: 120px;
+	font-size: 12px;
+	background: #e4ddcd;
+}
+#footer_left{
+	width: 350px;
+	display: block;
+	float: left;
+	border-right: 1px solid #ffffff;
+}
+#footer_right{
+	width: 350px;
+	display: block;
+	float: right;
+	border-left: : 1px solid #ffffff;
+}
+#footer_center{
+	display: block;
+}
